@@ -318,48 +318,48 @@ We use an array of type `Node` as the underlying data structure. Assume all hash
 
 **MyHashMap should look like after initialization:**
 
-![initial](https://github.com/user-attachments/assets/2e0f4512-955a-4fda-aea3-4922bdfab6e8)
+![initial](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382444031-2e0f4512-955a-4fda-aea3-4922bdfab6e8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234158Z&X-Amz-Expires=300&X-Amz-Signature=4f216fa74cca10298539170501dfa5bbf697268a497de1b01704e37bf8d5a386&X-Amz-SignedHeaders=host)
 
 After calling the constructor, `size` should be 0. All of the indices of our array should be `null`.
 
 **After calling `put("A", 1)`:**
 
-![insert-A](https://github.com/user-attachments/assets/123a81ab-388d-48a3-9896-5dc274893e7c)
+![insert-A](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382444267-123a81ab-388d-48a3-9896-5dc274893e7c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234159Z&X-Amz-Expires=300&X-Amz-Signature=899b39b90e7352046bb5582895e9a29be28e04dfe4ac2886aaf05c178775962d&X-Amz-SignedHeaders=host)
 
 `null` should be returned. `size` is 1.
 
 **After calling `put("G", 7)`:**
 
-![insert-G](https://github.com/user-attachments/assets/6a3b320c-f6ef-4cd6-96d8-6d68467df030)
+![insert-G](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382444413-6a3b320c-f6ef-4cd6-96d8-6d68467df030.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234201Z&X-Amz-Expires=300&X-Amz-Signature=e012457915746cf27e3eabb63e9bbc649a9b4dd2953f154309bd019e705332ea&X-Amz-SignedHeaders=host)
 
 `null` should be returned. `size` is 2.
 
 **After calling `put("B", 2)`:**
 
-![insert-B](https://github.com/user-attachments/assets/16481de6-cca3-4743-8bfd-f5dd2c38a539)
+![insert-B](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382444559-16481de6-cca3-4743-8bfd-f5dd2c38a539.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234202Z&X-Amz-Expires=300&X-Amz-Signature=6b30b923bbd4b92f29eaa14d86c3ecf0a2df52006a5a62665cf6929f0a8e91e0&X-Amz-SignedHeaders=host)
 
 `null` should be returned. `size` is 3.
 
 **After calling `remove("G")`:**
 
-![remove-G](https://github.com/user-attachments/assets/25b9713c-9bff-4362-bddd-54b495662b9b)
+![remove-G](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382445300-25b9713c-9bff-4362-bddd-54b495662b9b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234203Z&X-Amz-Expires=300&X-Amz-Signature=8fc954e30166b2340232af17fee272ec43d413a47fda90337a0669dffe89c98d&X-Amz-SignedHeaders=host)
 
 `7` should be returned. `size` is 2.
 
 **After calling `put("F", 6)`:**
 
-![insert-F](https://github.com/user-attachments/assets/aee81ff2-4a4a-452d-a0c4-b933d138749d)
+![insert-F](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382445003-aee81ff2-4a4a-452d-a0c4-b933d138749d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234204Z&X-Amz-Expires=300&X-Amz-Signature=ab7d7c13e77cbafd5ee91cd1f253b471350e4dbaf94d860e88793228bb490062&X-Amz-SignedHeaders=host)
 
 `null` should be returned. `size` is 3.
 
 **After calling `put("A", 2)`:**
 
-![replace-A](https://github.com/user-attachments/assets/f2af7694-78a2-48c7-9573-7655797d5ff7)
+![replace-A](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382445035-f2af7694-78a2-48c7-9573-7655797d5ff7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234205Z&X-Amz-Expires=300&X-Amz-Signature=af17a5ce695ab47bd277f24af15d207c5bc740822ef2ab229a2600547ce4375d&X-Amz-SignedHeaders=host)
 
 The value at node A is replaced. `1` should be returned. `size` is 3.
 
 **After manually calling `expandCapacity()`:**
 
-![expand](https://github.com/user-attachments/assets/a5ec0fef-320e-4f4f-8d74-2d5e0f447b1d)
+![expand](https://github-production-user-asset-6210df.s3.amazonaws.com/47510212/382445102-a5ec0fef-320e-4f4f-8d74-2d5e0f447b1d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250209T234206Z&X-Amz-Expires=300&X-Amz-Signature=ea84ae3a7c1f1f053731c7c2178b1162aceaffe1458ae6460c58948261f9deff&X-Amz-SignedHeaders=host)
 
 All nodes, including nodes on the same linked list, are re-hashed.
